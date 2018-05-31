@@ -42,12 +42,12 @@ basemap = Basemap(
 )
 
 chinaAdml = basemap.readshapefile(
-    'D:\\Geany\\Python_work\\weixin_pachong\\gadm36_CHN_1',
+    'gadm36_CHN_1',
     'china'
 )
 
 taiwanAdml = basemap.readshapefile(
-    'D:\\Geany\\Python_work\\weixin_pachong\\gadm36_TWN_0',
+    'gadm36_TWN_0',
     'taiwan'
 )
 
